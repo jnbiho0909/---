@@ -1,0 +1,58 @@
+1.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int x,y,area;
+    x=3;
+    y=5;
+    area=x*y;
+    printf("%d",area);
+    return 0;
+}
+2.
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+    a=7;
+    b=3;
+    printf("%d\n",a+b);
+    printf("%d\n",a-b);
+    printf("%d\n",a/b);
+    printf("%d",a%b);
+    return 0;
+}
+3.
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float rate,usd;
+    int krw;
+    rate = 1200;
+    krw = 1000000;
+    usd=krw/rate;
+
+    printf("원화 %d 는 %f 달러입니다",krw,usd);
+    return 0;
+}
+
+4.
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int yaslay,maslary;
+    yaslay=5000;
+    maslary=yaslay/12;
+    printf("당신의 연봉은 %d\n",yaslay);
+    printf("월 수령액은 %d\n",maslary);
+    return 0;
+}
